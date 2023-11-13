@@ -1,62 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Meta tags e outros cabeçalhos -->
 </head>
 <body>
-    <div style="width: 1440px; height: 1024px; position: relative; background: white">
-        <img style="width: 1440px; height: 1070px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/1440x1070" />
-        <div style="width: 674px; height: 185px; left: 33px; top: 447px; position: absolute; background: #9B5D24; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
-        <div style="width: 674px; height: 185px; left: 734px; top: 447px; position: absolute; background: #93571F; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
-        <div style="width: 674px; height: 185px; left: 33px; top: 211px; position: absolute; background: #9B5D24; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
-        <div style="width: 99px; height: 38px; left: 589px; top: 348px; position: absolute">
-          <div style="width: 99px; height: 38px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 50px"></div>
-          <div style="width: 59px; height: 26px; left: 20px; top: 2px; position: absolute; text-align: center; color: black; font-size: 19px; font-family: Be Vietnam; font-weight: 400; word-wrap: break-word">Editar</div>
+    <div class="i-pad-mini-8-3-1">
+        <div class="frame-2">
+            <img src="imagem-de-fundo-de-papel-de-parede-abstrato-bege-53876-102527-2.png" class="imagem-de-fundo-de-papel-de-parede-abstrato-bege-53876-102527-2" />
+            <div class="frame-5">
+                <div class="produtos-no-card-pio-null">Produtos no cardápio null</div>
+                <div class="frame-6">
+                    <!-- Cabeçalhos da tabela -->
+                    <div class="frame-8">
+                        <div class="status-qtd-em-estoque">
+                            Status<br />Qtd em estoque
+                        </div>
+                    </div>
+                    <!-- ... outros cabeçalhos ... -->
+                </div>
+                {% for produto in produtos %}
+                <div class="frame-72">
+                    <div class="frame-8">
+                        <div class="status-qtd-em-estoque">
+                            {{ produto.disponibilidade }}<br />{{ produto.disponibilidade }}
+                        </div>
+                    </div>
+                    <!-- Adicione as tags de imagem para exibir a foto do produto -->
+                    <div class="frame-7">
+                        <div class="foto">
+                            <img src="{{ produto.imagem }}" alt="{{ produto.nome }}" />
+                        </div>
+                    </div>
+                    <div class="frame-9">
+                        <div class="disponibilizar-excluir-editar-informa-es">
+                            <a href="#">Disponibilizar</a><br />
+                            <a href="#">Excluir</a><br />
+                            <a href="#">Editar informações</a>
+                        </div>
+                    </div>
+                    <div class="frame-10">
+                        <div class="nome-do-produto-disponibilidade-pre-o">
+                            {{ produto.nome }}<br />{{ produto.disponibilidade }}<br />R$ {{ produto.preco }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
-        <div style="width: 674px; height: 185px; left: 734px; top: 211px; position: absolute; background: #93571F; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"></div>
-        <div style="width: 99px; height: 38px; left: 1290px; top: 343px; position: absolute">
-          <div style="width: 99px; height: 38px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 50px"></div>
-          <div style="width: 59px; height: 26px; left: 20px; top: 2px; position: absolute; text-align: center; color: black; font-size: 19px; font-family: Be Vietnam; font-weight: 400; word-wrap: break-word">Editar</div>
+        <div class="frame-1">
+            <div class="ger-ncia-de-produtos">Gerência de produtos</div>
+            <div class="frame-3">
+                <img class="image-1" src="image-1.png" />
+            </div>
+            <div class="frame-4">
+                <img class="image-2" src="image-2.png" />
+            </div>
         </div>
-        <div style="width: 99px; height: 38px; left: 1290px; top: 579px; position: absolute">
-          <div style="width: 99px; height: 38px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 50px"></div>
-          <div style="width: 59px; height: 26px; left: 20px; top: 2px; position: absolute; text-align: center; color: black; font-size: 19px; font-family: Be Vietnam; font-weight: 400; word-wrap: break-word">Editar</div>
-        </div>
-        <div style="width: 99px; height: 38px; left: 591px; top: 578px; position: absolute">
-          <div style="width: 99px; height: 38px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 50px"></div>
-          <div style="width: 59px; height: 26px; left: 20px; top: 2px; position: absolute; text-align: center; color: black; font-size: 19px; font-family: Be Vietnam; font-weight: 400; word-wrap: break-word">Editar</div>
-        </div>
-        <img style="width: 152px; height: 155px; left: 51px; top: 226px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/152x155" />
-        <img style="width: 152px; height: 155px; left: 752px; top: 226px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/152x155" />
-        <img style="width: 152px; height: 155px; left: 51px; top: 462px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/152x155" />
-        <img style="width: 152px; height: 155px; left: 752px; top: 462px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/152x155" />
-        <div style="left: 230px; top: 226px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 700; word-wrap: break-word">Lanchão 1</div>
-        <div style="left: 230px; top: 272px; position: absolute; color: black; font-size: 24px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">Pão, carne, molho</div>
-        <div style="left: 230px; top: 508px; position: absolute; color: black; font-size: 24px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">Laranja</div>
-        <div style="left: 931px; top: 272px; position: absolute; color: black; font-size: 24px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">Pão, carne, molho</div>
-        <div style="left: 931px; top: 462px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 700; word-wrap: break-word">Coquinha gelada</div>
-        <div style="left: 931px; top: 226px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 700; word-wrap: break-word">Lanchão 2</div>
-        <div style="left: 230px; top: 462px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 700; word-wrap: break-word">Sucão</div>
-        <div style="left: 580px; top: 462px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">R$4,00</div>
-        <div style="left: 580px; top: 226px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">R$12,00</div>
-        <div style="left: 1272px; top: 226px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">R$15,00</div>
-        <div style="left: 1281px; top: 470px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">R$8,00</div>
-        <div style="left: 228px; top: 1038px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 700; word-wrap: break-word">Prato Feito</div>
-        <div style="left: 578px; top: 1046px; position: absolute; color: black; font-size: 32px; font-family: Josefin Slab; font-weight: 600; word-wrap: break-word">R$0,00</div>
-        <img style="width: 152px; height: 47px; left: 47px; top: 1038px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/152x47" />
-        <div style="left: 191px; top: 205px; position: absolute"></div>
-        <div style="width: 1440px; height: 181px; left: 0px; top: -7px; position: absolute; background: #A8681C"></div>
-        <div style="left: 533px; top: 43px; position: absolute; color: #93571F; font-size: 96px; font-family: Calistoga; font-weight: 400; word-wrap: break-word">Cardápio</div>
-        <div style="width: 200px; height: 66px; left: 507px; top: 883px; position: absolute">
-          <div style="width: 200px; height: 66px; left: 0px; top: 0px; position: absolute; background: #93571F; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 50px"></div>
-          <div style="left: 50px; top: 17px; position: absolute; text-align: center; color: black; font-size: 19px; font-family: Be Vietnam; font-weight: 400; word-wrap: break-word">ADICIONAR</div>
-        </div>
-        <div style="width: 200px; height: 66px; left: 734px; top: 883px; position: absolute">
-          <div style="width: 200px; height: 66px; left: 0px; top: 0px; position: absolute; background: #9B5D24; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 50px"></div>
-          <div style="left: 57px; top: 17px; position: absolute; text-align: center; color: black; font-size: 19px; font-family: Be Vietnam; font-weight: 400; word-wrap: break-word">REMOVER</div>
-        </div>
-      </div>
+    </div>
 </body>
 </html>

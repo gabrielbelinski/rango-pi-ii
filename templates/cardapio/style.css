@@ -1,0 +1,233 @@
+.i-pad-mini-8-3-1,
+.i-pad-mini-8-3-1 * {
+  box-sizing: border-box;
+}
+.i-pad-mini-8-3-1 {
+  background: #ffffff;
+  width: 1133px;
+  height: 744px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-2 {
+  width: 1133px;
+  height: 742px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.imagem-de-fundo-de-papel-de-parede-abstrato-bege-53876-102527-2 {
+  width: 1488px;
+  height: 938px;
+  position: absolute;
+  left: -20px;
+  top: 0px;
+}
+.frame-5 {
+  width: 1061px;
+  height: 569px;
+  position: absolute;
+  left: 36px;
+  top: 129px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.produtos-no-card-pio-null {
+  color: #000000;
+  text-align: center;
+  font: 400 48px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 265px;
+  top: 0px;
+}
+.frame-6 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #a16825;
+  border-width: 1px;
+  width: 1015px;
+  height: 72px;
+  position: absolute;
+  left: 22px;
+  top: 100px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.frame-8 {
+  width: 204px;
+  height: 59px;
+  position: absolute;
+  left: 464px;
+  top: 8px;
+  overflow: hidden;
+}
+.status-qtd-em-estoque {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 4px;
+  width: 167px;
+  height: 42px;
+}
+.frame-7 {
+  background: #ffffff;
+  width: 71px;
+  height: 64px;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  overflow: hidden;
+}
+.foto {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+}
+.frame-9 {
+  width: 170px;
+  height: 68px;
+  position: absolute;
+  left: 845px;
+  top: 0px;
+  overflow: hidden;
+}
+.disponibilizar-excluir-editar-informa-es {
+  color: #0f0771;
+  text-align: right;
+  font: 400 20px "Inria Sans", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: -48px;
+  top: 0px;
+  width: 218px;
+  height: 67px;
+}
+.frame-10 {
+  width: 162px;
+  height: 64px;
+  position: absolute;
+  left: 92px;
+  top: 8px;
+  overflow: hidden;
+}
+.nome-do-produto-disponibilidade-pre-o {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 6px;
+  top: -6px;
+  width: 273px;
+  height: 70px;
+}
+.frame-72 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #a16825;
+  border-width: 1px;
+  width: 1015px;
+  height: 72px;
+  position: absolute;
+  left: 23px;
+  top: 199px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.frame-82 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #a16825;
+  border-width: 1px;
+  width: 1015px;
+  height: 72px;
+  position: absolute;
+  left: 23px;
+  top: 298px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.frame-92 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #a16825;
+  border-width: 1px;
+  width: 1015px;
+  height: 72px;
+  position: absolute;
+  left: 23px;
+  top: 397px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.frame-102 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #a16825;
+  border-width: 1px;
+  width: 1015px;
+  height: 72px;
+  position: absolute;
+  left: 23px;
+  top: 496px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.frame-1 {
+  background: #a16825;
+  width: 1133px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.ger-ncia-de-produtos {
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Inria Sans", sans-serif;
+  position: absolute;
+  left: 295px;
+  top: 9px;
+  width: 543px;
+  height: 63px;
+}
+.frame-3 {
+  width: 82px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.image-1 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 72px;
+  height: 68px;
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frame-4 {
+  width: 82px;
+  height: 81px;
+  position: absolute;
+  left: 1051px;
+  top: 0px;
+  overflow: hidden;
+}
+.image-2 {
+  width: 65.94px;
+  height: 68px;
+  position: absolute;
+  left: 9px;
+  top: 7px;
+}
