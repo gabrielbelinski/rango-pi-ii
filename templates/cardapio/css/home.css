@@ -1,0 +1,43 @@
+
+.botao {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+    content: "";
+    clear: both;
+    display: table;
+    border: px solid black;
+    outline-style: solid;
+
+
+}
+
+.espaco{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    content: "";
+    clear: both;
+    display: table;
+
+    border: 2px solid black;
+    outline-style: solid;
+
+}
+
+.campo{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+    content: "";
+    clear: both;
+    display: table;
+    border: 2px solid black;
+    outline-style: solid;
+}

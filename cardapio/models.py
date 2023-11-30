@@ -7,7 +7,8 @@ class Produto(models.Model):
     descricao = models.TextField(null=False, blank=False)
     imagem = models.CharField(max_length=100, null=False, blank=False)
     disponibilidade = models.BooleanField(default=True)
+    
 
     def __str__(self):
-            return f"Produto [nome={self.nome}]"
+        return f"Produto [nome={self.nome}]"
 
