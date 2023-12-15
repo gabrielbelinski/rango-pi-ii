@@ -1,36 +1,45 @@
 h2 {
+   
+    background-color:#CACACA; 
+    border: none;
+    color: rgb(10, 8, 8);
+    padding: 10px 10px;
     text-align: center;
-    color: rgba(0, 0, 0, 0.779);
-
-    border: 2px solid black;
-    outline-style: solid;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 
     outline-color: rgb(10, 1, 1)(255, 225, 0);
     outline-width: thin;
     font-family: Tahoma, Verdana, sans-serif;
 
+    border: 2px solid#202022;
+    outline-style: solid;
 }
 
 body {
-    background-color: rgb(239, 226, 180);
+    background-color:  #DEEFE7;;
 }
   
 h1 {
-    color: rgb(90, 60, 17);
-    margin-left: 20px;
-    font-size: 40px;
 
-    border: 2px solid black;
-    outline-style: solid;
-
-
-    background-color: #aa8104; 
+    background-color: #CACACA; 
     border: none;
     color: rgb(10, 8, 8);
-    padding: 15px 32px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+
+    outline-color: rgb(10, 1, 1)(255, 225, 0);
+    outline-width: thin;
+    font-family: Tahoma, Verdana, sans-serif;
+
+    border: 2px solid #202022;
+    outline-style: solid;
+
+
+   
   }
 
