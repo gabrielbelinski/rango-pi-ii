@@ -1,42 +1,45 @@
 h2 {
    
-    background-color:#CACACA; 
+    background-color:#90E0EF; 
     border: none;
     color: rgb(10, 8, 8);
-    padding: 10px 10px;
+    padding: 30px 660px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 40px;
 
-    outline-color: rgb(10, 1, 1)(255, 225, 0);
+    outline-color: #90E0EF;
     outline-width: thin;
-    font-family: Tahoma, Verdana, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
 
-    border: 2px solid#202022;
+
+    border: 2px solid #90E0EF;
     outline-style: solid;
 }
 
 body {
-    background-color:  #DEEFE7;;
+    background-color:  #e0e1dd;
+    
 }
   
-h1 {
+ol {
 
-    background-color: #CACACA; 
+    background-color: #90E0EF; 
     border: none;
     color: rgb(10, 8, 8);
-    padding: 10px 10px;
+    padding: 80px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
 
-    outline-color: rgb(10, 1, 1)(255, 225, 0);
+    outline-color: #90E0EF;
     outline-width: thin;
     font-family: Tahoma, Verdana, sans-serif;
 
-    border: 2px solid #202022;
+    border: 2px solid #90E0EF;
     outline-style: solid;
 
 
